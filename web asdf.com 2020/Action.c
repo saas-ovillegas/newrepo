@@ -4,8 +4,6 @@ Action()
 
 	lr_start_transaction("t1");
 	
-	lr_output_message("hello");
-	
 	web_url("www.asdf.com", 
 		"URL=https://www.asdf.com/", 
 		"Resource=0", 
